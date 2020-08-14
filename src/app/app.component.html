@@ -1,0 +1,8 @@
+<h1 style="text-align: center;">User Login</h1>
+<div class="details">
+  <input type="text" placeholder="Enter username"><br><br>
+  <input type="password" placeholder="Enter password"><br><br>
+  <button type="submit" (click)="getval()">Login</button>
+  <div *ngFor="detail of detail">
+  {{detail.last_login}}
+</div>
